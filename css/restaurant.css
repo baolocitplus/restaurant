@@ -767,7 +767,7 @@ header {}
 /*----------------------------------------*/
 
 .home-one-hero-area {
-    background: rgba(0, 0, 0, 0) url("../img/bg/home1-hero.jpg") no-repeat scroll left top / cover;
+    background: rgba(0, 0, 0, 0) url("../img/home1-hero.jpg") no-repeat scroll left top / cover;
     padding: 281px 0 185px;
 }
 
@@ -855,7 +855,7 @@ header {}
 }
 
 .home1-ourstore-bg1 {
-    background-image: url("../img/our-store/banner1.jpg");
+    background-image: url("../img/banner1.jpg");
     background-position: left top;
     background-repeat: no-repeat;
     background-size: contain;
@@ -868,7 +868,7 @@ header {}
 }
 
 .home1-ourstore-bg2 {
-    background-image: url("../img/our-store/banner2.png");
+    background-image: url("../img/banner2.png");
     background-position: right top;
     background-repeat: no-repeat;
     background-size: contain;
@@ -955,7 +955,7 @@ header {}
 /*----------------------------------------*/
 
 .dinner-experience-area {
-    background: rgba(0, 0, 0, 0) url("../img/bg/dinner-experience.jpg") no-repeat scroll left top / cover;
+    background: rgba(0, 0, 0, 0) url("../img/dinner-experience.jpg") no-repeat scroll left top / cover;
     padding: 63px 0 110px;
 }
 
@@ -1115,7 +1115,7 @@ header {}
 /*----------------------------------------*/
 
 .discover-lunch-area {
-    background: rgba(0, 0, 0, 0) url("../img/bg/discover-lunch.jpg") no-repeat scroll left top / cover;
+    background: rgba(0, 0, 0, 0) url("../img/discover-lunch.jpg") no-repeat scroll left top / cover;
     padding: 49px 0 32px;
     position: relative;
 }
