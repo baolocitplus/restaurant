@@ -1,0 +1,172 @@
+header{
+	/*background: url("http://betheme.muffingroupsc.netdna-cdn.com/be/restaurant/wp-content/uploads/2015/02/slide-restaurant-bg.jpg") no-repeat;*/
+}
+.header-full{
+	background: #fff;
+}
+.menu-items{
+	margin: 0 auto;
+	border-color: transparent;
+	background: transparent;
+}
+.logo{
+	padding-top:10px;
+}
+.icon-search>a>i{
+	padding: 20px;
+	color: #000;
+	font-weight: bold;
+}
+.top_bar{
+	margin-top: 10px;
+}
+.top-1 li a{
+	font-weight: bold;
+}
+.top-1 li a:hover{
+	color: orange !important;
+}
+.img img{
+	width: 100%;
+}
+.section_2{
+	padding-bottom: 40px;
+}
+
+
+
+
+/* slide*/
+
+body {
+  margin: 0; 
+  padding: 0;
+}
+.section_1{
+	margin-top: 64px;
+}
+.diy-slideshow{
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+figure{
+  position: absolute;
+  opacity: 0;
+  transition: 1s opacity;
+}
+figcaption{
+  position: absolute;
+  font-family: sans-serif;
+  font-size: .8em;
+  bottom: .75em;
+  right: .35em;
+  padding: .25em;
+  color: #fff;
+  border-radius: 2px;
+}
+figcaption a{
+  color: #fff;
+}
+figure.show{
+  position: relative;
+  opacity: 1;
+  transition: 1s opacity;
+}
+figure.show img{
+	height: 500px;
+}
+
+.next, .prev{
+  color: #fff;
+  position: absolute;
+  background: rgba(0,0,0, .6);
+  top: 48%;
+  z-index: 1;
+  font-size: 2em;
+  margin-top: -.75em;
+  opacity: .3;
+  user-select: none;
+}
+.next:hover, .prev:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+.next{
+  right: 0;
+  padding: 10px 5px 15px 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.prev{
+  left: 0;
+  padding: 10px 10px 15px 5px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+p{
+  margin: 10px 20px;
+  color: #fff;
+}
+
+
+/*ection 2*/
+.section_2{
+	padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #f3f2e9;
+}
+.title {
+    font-size: 42px;
+    line-height: 42px;
+    font-family: "Courgette", Arial, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px;
+}
+.themecolor{
+	color: #a1a61a;
+}
+.desc{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    padding: 20px 15px 35px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+}
+.desc .subtitle{
+	background-color: #a1a61a;
+	display: inline-block;
+    position: relative;
+    bottom: 0;
+    line-height: normal;
+    letter-spacing: 1px;
+    padding: 4px 8px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-image: url(../images/stripes/stripes_10_w.png);
+}
+.desc h2 {
+    margin: 0;
+    position: relative;
+    bottom: 0;
+    font-size: 30px;
+    line-height: 30px;
+ }
+ .desc .line {
+    height: 1px;
+    width: 0;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+    display: block;
+}
